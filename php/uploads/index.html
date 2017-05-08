@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+    <!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+    <!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<html>
+<head>
+    <!-- мета-костыль для IE -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <meta http-equiv="Content-language" content="ru"/> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> <!-- viewport для мобильных -->
+   <!--  <meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=yes"> --> <!-- viewport для ПК/лаптопов -->
+
+    <title>Sony Wireless Speaker</title>
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +  -->
+
+    <!-- slider -->
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"> -->
+
+    <!--[if lt IE 10]>
+        <style type="text/css">
+        .input-warning {
+            border: red solid 2px !important;
+        }
+        </style>
+    <![endif]-->
+
+    <!-- + + + + + + + + + + + + + JS analytics + + + + + + + + + + + + + -->
+
+    <!-- Google Analytics -->
+    <script>
+        // новая аналитика
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        // ga('create', 'UA-64306660-17', 'auto');
+
+        // междоменное отслеживание
+        ga('create', 'UA-64306660-17', 'auto', {'allowLinker': true});
+        ga('require', 'linker');
+
+        // ga('create', 'UA-62965689-1', 'auto', {'name':'sony'});
+
+        ga('create', 'UA-62965689-1', 'auto', {
+            'name' : 'sony',
+            'allowLinker': true
+        });
+
+        ga('sony.require', 'linker');
+
+        ga('linker:autoLink', ['http://www.sony.ru/']);
+        //  = = = = = = = = = = = = = = = = = = = =
+
+        ga('send', 'pageview');
+        ga('sony.send', 'pageview');
+
+       // здесь используется код аналитики ниже
+       // старая аналитика
+        // var _gaq = _gaq || [];
+        // _gaq.push(['_setAccount', 'UA-64306660-11']);
+        // _gaq.push(['_setAllowLinker', true]);
+        // _gaq.push(['_trackPageview']);
+        // _gaq.push(['_setDomainName', 'xn----7sbb4ahkdldf7dvh.xn--p1ai']);
+
+        // (function () {
+        //     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        //     ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        //     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        // })();
+
+    </script>
+
+    <script src="https://apis.google.com/js/client.js"></script>
+
+</head>
+<body>
+
+    <!-- Login Preloader Screen  -->
+    <style>
+
+        /* cкрыть Рамблер аналитику картинку */
+        a[href$="http://top100.rambler.ru/home?id=3148081"] {
+            display: none !important;
+        }
+
+    </style>
+
+    <div id="preloader-wrapper" style="
+        position:   fixed;
+        z-index:    9999999;
+        top:        0;
+        left:       0;
+        height:     100%;
+        width:      100%;
+        cursor:     wait;
+        background: #fff;
+        ">
+        <div style="position:relative;width:100%;height:100%;">
+            <div id="preloader" style="position: absolute;
+                width: 150px;
+                height: 48px;
+                top: 50%;
+                left: 50%;
+                margin-top: -65px;
+                margin-left: -75px;
+                background-image: url(src/img/preloader.gif);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;">
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        setTimeout(function(){
+            document.getElementById('preloader').style.display='none';
+        },10*1000);
+    </script>
+
+
+    <!-- Facebook  initialization -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=824354854275836&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+<!--
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+ -->
+    <script>
+    (function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = 'http://connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+        // _fbq.push(['addPixelId', '945463538802060']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+
+    <noscript><img height="1" width="1" alt="" style="display:none" src="//www.facebook.com/tr?id=945463538802060&amp;ev=PixelInitialized" /></noscript>
+    <!-- //Facebook  initialization ENDS// -->
+
+    <!-- DOM -->
+
+    <!-- Yandex.Metrika counter -->
+  <!--
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter33932259 = new Ya.Metrika({
+                        id:33932259,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/33932259" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+ -->
+     <!-- Yandex.Metrika counter -->
+<!--
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter33932259 = new Ya.Metrika({
+                        id:33932259,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/34115695" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+     -->
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- begin of Рамблер Top100 code -->
+<!--
+    <script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?3148081"></script>
+    <noscript>
+        <a href="http://top100.rambler.ru/navi/3148081/">
+            <img src="http://counter.rambler.ru/top100.cnt?3148081" alt="Rambler's Top100" border="0" />
+        </a>
+    </noscript>
+     -->
+    <!-- end of Top100 code -->
+
+    <!-- код ретаргетинга ВК -->
+    <script type="text/javascript">
+        // (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=o5SVRmS8bIkO4B16HSjm6x3ik36WpoVdB6DMAgpGG5oNYSmfjyKmAxSXv0sz2ZwK7ZVcilcgWYwBoNT4/55xaxiXORYkxV0ORvS7FLPuubTcaB8RMqV7SWj69NnlnK4ZRk55o1Y9zhEjCQiZ7w0CjERWaQB93gX7gUzl2bYEyOY-';
+    </script>
+
+    <div style="display:none;">
+        <!-- код ретаргетинга Google -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        // var google_conversion_id = 954475449;
+        // var google_custom_params = window.google_tag_params;
+        // var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+    <!--
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+       -->
+    <!--     <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/954475449/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript> -->
+
+    </div> <!-- display:none -->
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +  -->
+
+    <!-- =popups -->
+
+    <!-- <div id="popup-finish" class="admify-popup admify-popup-finish">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent jump-item" data-subblock="judges" >
+                <div class="admify-popupClose">
+                    <span class="close-btn-label mobile-only">Закрыть</span>
+                </div>
+                <h1>Акция завершена. Cпасибо за участие. Идет подведение итогов.</h1>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="popup-tutorial" class="admify-popup admify-popup-tutorial">
+       <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <video width="100%" height="100%" controls>
+                    <source src="src/others/tutorial.mov" type="video/mov">
+                    <source src="src/others/tutorial.mp4" type="video/mp4">
+                    <source src="src/others/tutorial.ogv" type="video/ogg">
+                    Ваш браузер не поддерживает видео.
+                    <br> Пожалуйста, воспользуйтесь другим браузером.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-rating" class="admify-popup admify-popup-rating">
+       <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <div id="ratingBlock" class="ratingBlock">
+                    <div class="ratingBlockHeader">
+                        <!-- <h2>Рейтинг участников</h2> -->
+    <!--                     <p>Попади в ТОП-100 самых активных участников акции<br>и выиграй 1 из 100  смартфонов <a class="sonyXperiaLink" href="https://store.sony.ru/sony_xperia/smartphones/smartphones/index.php?prodid=311687&acc_from_page=" target="_blank">Xperia&trade; Z5 Compact</a>*. </p> -->
+                        <h2>Поздравляем победителей!</h2>
+                        <p>Счастливыми обладателями смартфона Sony Xperia Z5 становятся:</p>
+                    </div>
+                    <div class="rating-content ratingScrollWrap">
+                        <ul class="ratingTable" id="ratingUsers">
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>1</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дмитрий Терещук</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>2</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дмитрий Тетерин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>3</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Елена Cтепаненко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>4</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Арслан Самаев</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>5</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Мария Никулина</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>6</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ирина Кутырёва</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>7</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Елена Очнева</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>8</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Алексей Котенко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>9</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Татьяна Кузнецова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>10</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Олег Комаров</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>11</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ольга Башкурова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>12</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ксения Гатапова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>13</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Чугунов Николай</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>14</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Мария Дунина</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>15</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр Хвостов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>16</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Катерина Гонта</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>17</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Павел Лябегин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>18</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Алексей Лавинчук</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>19</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Елена Непринцева</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>20</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Василий Шлидт</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>21</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Арсен Минасян</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>22</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Иван Жегалов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>23</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анастасия Чуева</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>24</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Шота Гогуа</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>25</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Елена Михеева</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>26</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Денис Ашанин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>27</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Денис Козулев</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>28</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Юлия Иванова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>29</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Вячеслав Попов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>30</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр Губайдуллин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>31</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дарья Куликова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>32</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Сергей Евдокимов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>33</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Максим Ситников</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>34</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Наталья Якубовская</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>35</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анюта Евдокимова-Крячкова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>36</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дмитрий Когут</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>37</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анна Панкратова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>38</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Тёма Григорьев</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>39</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дмитрий Окунев</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>40</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр Петухов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>41</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Сергей Блинников</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>42</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Владимир Иванов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>43</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Павел Грошков</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>44</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Татьяна Анжу</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>45</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Вера Козулева</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>46</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Elena Volgina</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>47</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Николай Николаев</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>48</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анна Викулова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>49</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Павел Богданов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>50</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Петр Немкин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>51</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Илья Фроленков</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>52</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Владимир Лукашенко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>53</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Илья Ильич</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>54</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Баир Гатапов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>55</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Роман Демихов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>56</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Даша Лапонина (Тимченко)</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>57</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Вера Немкина</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>58</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Надя Мартова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>59</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Юрий Коротков</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>60</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Игорь</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>61</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Кирилл Антонов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>62</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Наталия</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>63</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анастасия Гусарова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>64</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Таня Арина (Баева)</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>65</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Анастасия Мартынова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>66</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Игорь Кравец</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>67</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Рогожин Алексей</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>68</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Алексей Замыцков</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>69</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Константин Волынский</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>70</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Svetlana Kalinichenko</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>71</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Роман Филиппов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>72</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Игорь Цвирко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>73</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Daria Dunaeva</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>74</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр Спирин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>75</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Виталий Кайдалов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>76</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Jaguar Jaga</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>77</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ирина Стена</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>78</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Павел</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>79</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Максим Лялькин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>80</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Олег Пилюшин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>81</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Максим Скалимовски</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>82</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ирина Ермакова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>83</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Иван Дерябин</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>84</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Алексей Граффит</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>85</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Максим Лапченко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>86</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Алексей Кипятков</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>87</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр Марченко</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>88</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Timur Muhamadeev</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>89</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Александр</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>90</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Кирилл Ханжинов</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>91</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Zufarych</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>92</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Sultan Corleone</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>93</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Юлька Александрова</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>94</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Василий</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>95</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Светлана</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>96</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Sergey Ochnev</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>97</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Дмитрий</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>98</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Нетеров Евгений</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>99</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Сергей</div>
+                            </li>
+                            <li class="rating-row">
+                                <div class="ratingCell user-number"><span>100</span></div>
+                                <div class="ratingCell user-image"></div>
+                                <div class="ratingCell user-name">Ирина Воротилина</div>
+                            </li>
+                        </ul>
+
+
+
+
+                    </div>
+                    <!-- <div class="rating-desc">*Зэд5 Компакт</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-confirmEmail" class="admify-popup admify-popup-confirmEmail">
+       <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <h2 class="admify-popupTitle">Регистрация</h2>
+                    <p>Регистрируйтесь в акции и получайте первые 100 баллов!
+                    <br> Рассказывай об акции, приглашай друзей на вечеринку
+                    <br> без провода и получай за это еще больше баллов</p>
+                <div class="regGlobalBlock">
+                    <div id="confirmEmail">
+                        <form method="post" action="" class="form-confirm-email clearfix">
+                            <input type="email" name="email" value="" placeholder="Введите свой e-mail" class="input input-email" style="">
+                            <button type="submit" class="button button-popup"><span>Зарегистрироваться</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-email" class="admify-popup admify-popup-email">
+       <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <h2 class="admify-popupTitle">Регистрация</h2>
+                <p>Регистрируйтесь в акции и получайте первые 100 баллов!
+                <br> Рассказывай об акции, приглашай друзей на вечеринку
+                <br> без провода и получай за это еще больше баллов</p>
+                <div class="regGlobalBlock">
+                    <div id="email">
+                        <form method="post" action="" class="form-register-email clearfix">
+                            <input type="name" name="name" value="" placeholder="Веведите своё имя" class=" input input-name" style="">
+                            <input type="email" name="email" value="" placeholder="Ввведите свой e-mail" class="input input-email" style="">
+                            <button type="submit" class="button btn emailReg"><span>Зарегистрироваться</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-authEmail" class="admify-popup admify-popup-authEmail">
+       <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <h2 class="admify-popupTitle">Вход</h2>
+                <p>Рассказывай об акции, приглашай друзей на вечеринку
+                <br> без провода и получай за это еще больше баллов</p>
+                <div class="regGlobalBlock">
+                    <div id="authEmail">
+                        <form method="post" action="" class="form-auth-email clearfix">
+                            <input type="email" name="email" value="" placeholder="Ввведите свой e-mail" class="input input-email" style="">
+                            <input type="password" name="password" value="" placeholder="Введите пароль" class="input input-password" style="">
+                            <button type="submit" class="button btn emailAuth"><span>Войти</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-register" class="admify-popup admify-popup-register">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <div class="subheader-register">
+                    <h2>Регистрация</h2>
+                    <p>Регистрируйтесь в акции и получайте первые 100 баллов!
+                    <br>Рассказывай об акции, приглашай друзей на вечеринку
+                    <br>без провода и получай за это еще больше баллов</p>
+                    <div class="regGlobalBlock">
+
+                        <div class="login-confirm-rules login-popup desktop-only">
+                            <div class="arrow-pointer"></div>
+                            <div class="checkbox"></div>
+                            С <a href="src/rules/rules.pdf" target="_blank">правилами</a> ознакомлен
+                        </div>
+
+                        <div class="login-buttons social-buttons">
+                            <button class="vk login-button">v <span class="soc-name mobile-only">Twitter</span></button>
+                            <button class="fb login-button">f <span class="soc-name mobile-only">Facebook</span></button>
+                            <button class="mm login-button">m <span class="soc-name mobile-only">Мой мир</span></button>
+                            <button class="ok login-button">o <span class="soc-name mobile-only">Одноклассники</span></button>
+                            <button class="ma login-popup login-button">e <span class="soc-name mobile-only">Email</span></button>
+                        </div>
+
+                        <div class="login-confirm-rules login-popup mobile-only-2">
+                            <div class="arrow-pointer"></div>
+                            <div class="checkbox"></div>
+                            С <a href="src/rules/rules.pdf" target="_blank">правилами</a> ознакомлен
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-auth" class="admify-popup admify-popup-auth">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <div class="subheader-auth">
+                    <h2>Вход</h2>
+                    <p>Рассказывай об акции, приглашай друзей на вечеринку
+                    <br>без провода и получай за это еще больше баллов</p>
+                    <div class="authGlobalBlock">
+                        <div class="login-buttons social-buttons">
+                            <button class="vk login-button">v <span class="soc-name mobile-only">Twitter</span></button>
+                            <button class="fb login-button">f <span class="soc-name mobile-only">Facebook</span></button>
+                            <button class="mm login-button">m <span class="soc-name mobile-only">Мой мир</span></button>
+                            <button class="ok login-button">o <span class="soc-name mobile-only">Одноклассники</span></button>
+                            <button class="ma login-popup login-button">e <span class="soc-name mobile-only">Email</span></button>
+                        </div>
+                        <div class="login-confirm-rules login-popup">
+                            <div class="arrow-pointer"></div>
+                            <div class="checkbox checkbox-checked"></div>
+                            С <a href="src/rules/rules.pdf" target="_blank">правилами</a> ознакомлен
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-feedback" class="admify-popup admify-popup-feedback">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose">
+                    <!-- <span class="close-btn-label mobile-only">Закрыть</span> -->
+                </div>
+                <div id="feedback">
+                    <div class="feedback-active">
+                        <h2>Ваш вопрос</h2>
+
+                        <form method="post" action="" class="form-feedback clearfix">
+                            <!-- <div class="select-style"> -->
+                                <select size="1" name="problem-title" class="selectBox required" >
+                                    <option selected disabled value="">Выберите проблему из списка</option>
+                                    <option value="1">Не понимаете, что делать</option>
+                                    <option value="2">Не получили баллы</option>
+                                    <option value="3">Нашли ошибку</option>
+                                    <option value="4">Хотите рассказать о чем-то еще</option>
+                                </select>
+                            <!-- </div> -->
+                            <textarea name="problem-text" placeholder="Оставьте свой комментарий" class="required"></textarea>
+                            <input type="email" name="email" placeholder="Укажите свой e-mail*" class="input-email required">
+                            <div class="form-field">
+                                <div class="checkbox checkbox-checked required"></div>
+                                <span class="feedback-checkbox-txt">Отправить ответ на указанный электронный адрес</span>
+                            </div>
+                            <button type="submit" class="button btn-share">ОТПРАВИТЬ КОММЕНТАРИЙ</button>
+                        </form>
+
+                    </div>
+                    <div class="feedback-done">
+                        <h2>Ваше сообщение отправлено<br></h2>
+                        <h3>С вами свяжутся <br> в течение трёх рабочих дней.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--     <div id="popup-gallery" class="admify-popup admify-popup-gallery">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose">
+ -->
+                    <!-- <span class="close-btn-label mobile-only">Закрыть</span> -->
+
+<!--                 </div>
+                <div class="prevCol"></div>
+                <div class="photoGal photoGal-big">
+                    <div class="photoGalShading">
+                        <div class="photoOnMod"></div>
+                        <span class="admify-user">ОДИННАДЦАТИКЛАССНИЦА</span>
+                        <div class="btn-like">
+                            <div class="likeNum" data-likes="0">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nextCol"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="popup-photoSuccess" class="admify-popup admify-popup-photoSuccess">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose">
+                    <!-- <span class="close-btn-label mobile-only">Закрыть</span> -->
+                </div>
+                <h2> Спасибо! Твоя фотография загружена.</h2>
+                <h3>После успешной модерации ты получишь заслуженные
+                <br>100 баллов.</h3>
+    <!--             <div class="popup-btn-ok mobile-only">
+                    <span>ОК</span> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-socSelect" class="admify-popup admify-popup-socSelect">
+        <div class="admify-popupBg">
+            <div class="admify-popupContent">
+                <div class="admify-popupClose"></div>
+                <h2>Выберите соцсеть<br>
+                для загрузки фотографий</h2>
+                <p>c <span class="red">#вечеринкабезпровода</span> <span class="blue">#sonywireless</span></p>
+                <div class="subheader-socSelect">
+                    <div class="socSelect-buttons social-buttons">
+                        <button class="vk">v</button>
+                        <button class="fb">f <span class="soc-name mobile-only">Facebook</span></button>
+                        <button class="mm">m <span class="soc-name mobile-only">Мой мир</span></button>
+                        <button class="ok">o <span class="soc-name mobile-only">Одноклассники</span></button>
+                        <button class="ig">i <span class="soc-name mobile-only">Instagram</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="popup-micro"></div> -->
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + попапы заканчиваются тут + + + + + + + + + + + + + + + + + + + + + + + + +  -->
+
+    <!-- header / FIXED HEADER-->
+    <div id="header" class="elementFast animate_on_scroll" animation-delay="0">
+        <div class="centerWrap">
+
+            <div class="logo-block">
+                <img width="100%" height="100%" src="src/img/logo-sony.png" alt="">
+            </div>
+
+            <div class="mobile-menu-btn mobile-only"></div><!-- Mobile menu button -->
+             <!-- MOBILE MENU =mobile -->
+
+            <div class="mobile-topmenu">
+                <div class="mobile-topmenu-active">
+                    <div class="menuitem activated menuitem-about" data-nav="about">Об акции</div>
+                    <div class="menuitem activated menuitem-gallery" data-nav="gallery">#Вечеринкабезпровода</div>
+                    <div class="menuitem activated menuitem-prizes" data-nav="prize">Призы</div>
+                    <div class="menuitem activated menuitem-rating" data-nav="rating">Победители</div>
+                    <div class="menuitem activated menuitem-rules" data-nav="rules">Правила</div>
+                </div>
+            </div>
+
+            <div class="mobile-head-lk">
+                <div class="admify-page admify-page-auth">
+                    <span class="btn-reg mobile-only-2" >Зарегистрироваться</span>
+                    <span class="vhod mobile-only-2" id="mobile-auth-open">Войти</span>
+                </div>
+            </div>
+
+            <div class="topmenu">
+                <div class="menuitem activated menuitem-about" data-nav="about">Об акции</div>
+                <div class="menuitem activated menuitem-gallery" data-nav="gallery">#Вечеринкабезпровода</div>
+                <div class="menuitem activated menuitem-prizes" data-nav="prize">Призы</div>
+                <div class="menuitem activated menuitem-rating" data-nav="rating">Победители</div>
+                <div class="menuitem activated menuitem-rules" data-nav="rules">Правила</div>
+            </div>
+
+            <div class="cabinetBg">
+                <div class="admify-page admify-page-auth">
+                    <div class="authAreaTop">
+                        <div class="authGlobalBlock">
+                            <!-- <span class="vhod">Регистрация / Вход</span> -->
+                            <span class="btn btn-reg">Зарегистрироваться</span>
+                            <span class="vhod">Войти:</span>
+                            <div class="login-buttons social-buttons">
+                                <button class="vk login-button">v</button>
+                                <button class="fb login-button">f</button>
+                                <button class="ok login-button">o</button>
+                                <button class="mm login-button">m</button>
+                                <button class="ma login-desktop login-button">e</button>
+                            </div>
+                            <div class="login-confirm-rules">
+                                <div class="checkbox checkbox-checked"></div>
+                                с <a href="src/rules/rules.pdf" target="_blank">правилами ознакомлен</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- admify-page-auth -->
+
+                <div class="admify-page admify-page-cabinet">
+                    <div id="userAreaTop">
+                        <div class="userWrap-top">
+                            <div class="img-wrapper">
+                                <img src="" alt="user avatar" width="42" height="42" class="admify-user-photo lk-to-widget">
+                            </div>
+                            <span class="admify-user-name"></span>
+                            <br>
+                            <span class="exit">Выйти</span>
+                            <!-- <div class="points">
+                                <span class="admify-label-points"></span>
+                                <span class="label">баллов</span>
+                            </div> -->
+                        </div> <!-- userWrap  -->
+                    </div>
+                </div> <!-- admify-page-cabinet -->
+
+            </div> <!-- cabinetBg -->
+
+        </div> <!-- centerWrap -->
+    </div> <!-- header -->
+
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  -->
+    <div id="mainBlock" class="subblock-main subblock page-wrap">
+        <div class="centerWrap">
+
+                <div class="mainBlockHeader">
+                    Вечеринка <br>
+                    без п<span>р</span>овода
+
+                </div>
+                <div class="mainBlockTxt">
+                    <!-- Больше не нужно искать повод, чтобы собрать друзей!
+                    <br> Все, что требуется для отличной вечеринки — это портативные колонки Sony.
+                    <br> C ними ты в любой момент можешь собрать компанию, насладиться общением
+                    <br> и отличным звучанием любимой музыки. -->
+                    <!-- <span class="big">АКЦИЯ ЗАВЕРШЕНА</span> -->
+                    <br>
+                    <!-- Спасибо за активное участие! Наш конкурс подошел к концу. Сейчас идет финальное начисление баллов. Совсем скоро мы объявим победителей. -->
+                    Ура, Победители Акции определены! <br> Cписок счастливчиков можно посмотреть <span class="winners">тут</span>
+                </div>
+                <!-- <div class="btn btn-getSpeakers">Принять участие</div> -->
+
+        </div> <!-- centerWrap -->
+    </div> <!-- mainBlock -->
+
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  -->
+    <div id="buyBlock" class="subblock-buy subblock page-wrap">
+
+        <div class="centerWrap">
+                <div class="buyHeaderWrap">
+                    <h2>Купи беcпроводную<br> колонку Sony*</h2>
+                    <div class="buyBlockTxt">
+                        Зарегистрируй код с упаковки и&nbsp;получи 6 месяцев подписки на  <a class="googlePlayLink" href="https://play.google.com/music" target="_blank">Google Play&trade; Музыка</a> бесплатно.
+                        <br>Стань самым активным и&nbsp;выиграй главный приз&nbsp;—&nbsp;смартфон <a class="sonyXperiaLink" href="https://store.sony.ru/sony_xperia/smartphones/smartphones/index.php?prodid=311687&acc_from_page=" target="_blank">Xperia&trade;&nbsp;Z5&nbsp;Compact</a>**.
+                    </div>
+                </div>
+        </div> <!-- centerWrap -->
+
+        <div class="buySpeakersWrap">
+            <div class="centerWrap">
+                <div class="speaker speaker-1">
+                    <!-- <img src="src/img/buy-speaker-1.png" width="100%" height="100%"> -->
+                    <div class="speakerIMG">
+                        <div class="slide-2"></div>
+                        <div class="slide-3"></div>
+                        <div class="slide-4"></div>
+                    </div>
+                    <p>Беспроводная колонка SRS-X11</p>
+                    <a href="http://www.sony.ru/electronics/besprovodnye-as/srs-x11" class="btn btn-buySpeakers" target="_blank">Купить</a>
+                </div>
+                <div class="speaker speaker-2">
+                    <!-- <img src="src/img/buy-speaker-2.png" width="100%" height="100%"> -->
+                    <div class="speakerIMG">
+                        <div class="slide-2"></div>
+                        <div class="slide-3"></div>
+                        <div class="slide-4"></div>
+                    </div>
+                    <p>Беспроводная колонка SRS-X33</p>
+                    <a href="http://www.sony.ru/electronics/besprovodnye-as/srs-x33" class="btn btn-buySpeakers" target="_blank">Купить</a>
+                </div>
+                <div class="speaker speaker-3">
+                    <!-- <img src="src/img/buy-speaker-3.png" width="100%" height="100%"> -->
+                    <div class="speakerIMG">
+                        <!--<div class="slide-2"></div>-->
+                        <div class="slide-3"></div>
+                        <div class="slide-4"></div>
+                    </div>
+                    <p>Беспроводная колонка SRS-X55</p>
+                    <a href="http://www.sony.ru/electronics/besprovodnye-as/srs-x55" class="btn btn-buySpeakers" target="_blank">Купить</a>
+                </div>
+            </div> <!-- centerWrap -->
+        </div>
+
+<!--         <div class="centerSpeaker">
+            <img src="src/img/buy-center-speaker.png" width="100%" height="100%">
+        </div> -->
+
+    </div> <!-- buyBlock -->
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+    <div id="aboutBlock" class="subblock-about subblock page-wrap">
+        <div class="centerWrap">
+            <div class="gatherWrap">
+                <div class="buyPhoto_mobile" style="display:none;">
+                    <img src="src/img/buy-photo.png" width="100%" height="100%">
+                </div>
+                <h2 class="allfriends_mobile">Собирай друзей<br> вместе с Sony</h2>
+                <ol>
+                    <li><strong>Купи беспроводную колонку Sony</strong>, зарегистрируй код с&nbsp;упаковки и&nbsp;получи 6&nbsp;месяцев подписки
+                    <br>на <a class="googlePlayLink" href="https://play.google.com/music" target="_blank">Google Play&trade; Музыка</a> бесплатно.</li>
+                    <li><strong>Набирай баллы</strong> за рассказы об&nbsp;акции в&nbsp;социальных сетях, отзывы о портативных колонках Sony и фото ваших вечеринок без провода.</li>
+                    <li><strong>Стань одним из 100 самых активных</strong> участников и&nbsp;выиграй главный приз
+                    — смартфон <a class="sonyXperiaLink" href="https://store.sony.ru/sony_xperia/smartphones/smartphones/index.php?prodid=311687&acc_from_page=" target="_blank">Xperia&trade;&nbsp;Z5&nbsp;Compact</a>*.</li>
+
+                </ol>
+                <div class="gMusic">
+                    <a class="googlePlayLink" href="https://play.google.com/music" target="_blank"><img src="src/img/google-music.png" width="100%" height="100%"></a>
+                </div>
+            </div>
+            <div class="buyPhoto">
+                <img src="src/img/buy-photo.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+    <div id="cabinetBlock" class="page-wrap admify-page admify-page-cabinet">
+        <div class="centerWrap">
+            <div class="speakers-lk">
+                <img src="src/img/lk-speakers.png" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="centerWrapOverflowHidden">
+            <h2>Личный кабинет</h2>
+            <p class="lk-txt">Зарегистрируй код с упаковки и получи 6 месяцев подписки на <a class="googlePlayLink" href="https://play.google.com/music" target="_blank">Google Play&trade; Музыка</a> бесплатно. Стань самым активным и выиграй главный приз — смартфон <a class="sonyXperiaLink" href="https://store.sony.ru/sony_xperia/smartphones/smartphones/index.php?prodid=311687&acc_from_page=" target="_blank">Xperia&trade; Z5 Compact</a>**. </p>
+
+            <div class="cabinetWrap-L">
+                <div class="userWrap element0 animate_on_scroll" animation-delay="300"> <!-- cabinet subBlock 1 -->
+                    <div class="box-user">
+                        <div class="img-wrapper">
+                            <img src="" alt="user avatar" width="80" height="80" class="admify-user-photo lk-to-widget">
+                        </div>
+                        <span class="admify-user-name"></span>
+                    </div>
+                    <div class="box-points">
+                        <div class="points">
+                            <span class="label">Мои баллы</span>
+                            <br>
+                            <span class="admify-label-points"></span>
+                        </div>
+                    </div>
+                </div> <!-- userWrap  -->
+
+                <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+                <!-- Личный Кабинет Виджет # 1 -->
+
+                <div class="widgetSlider-block-1">
+                    <div class="relative">
+                        <div class="prevSlide-1 elementFast animate_on_scroll" animation-delay="330"></div>
+                        <div class="nextSlide-1 elementFast animate_on_scroll" animation-delay="330"></div>
+
+                        <div class="widget-slider widgetSlider-1"> <!-- widget-slider-1 wrap -->
+
+                            <!-- рассказать в КОНТАКТ -->
+                            <div class="slider-frame widget-frame-group" data-name="shareVK" data-prev="shareLink" data-next="shareFB" data-event="lk">
+                                <div class="main-bg share-lk vk">
+                                    <div class="logo-frame logo_shareVK">v</div>
+                                </div>
+                               <!--  <div class="points_wrap">
+                                    <div class="points_txt p-100"><span class='p-num'>100</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                                <div class="infotext">
+                                    Расскажите друзьям
+                                    <br> о конкурсе ВКонтакте
+                                </div>
+                                <div class="btn btn-share-lk vk">Рассказать</div>
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="shareVK-done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>100</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- рассказать в ФЕЙСБУК -->
+                            <div class="slider-frame widget-frame-group" data-name="shareFB" data-prev="shareVK" data-next="shareMM" data-event="lk">
+                                <div class="main-bg share-lk fb">
+                                    <div class="logo-frame logo_shareFB">f</div>
+                                </div>
+                               <!--  <div class="points_wrap">
+                                    <div class="points_txt p-100"><span class='p-num'>100</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                                <div class="infotext">
+                                    Расскажите друзьям
+                                    <br> о конкурсе в Facebook
+                                </div>
+                                <div class="btn btn-share-lk vk">Рассказать</div>
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="shareFB-done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>100</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- рассказать в МОЙ МИР -->
+                            <div class="slider-frame widget-frame-big widget-frame-group" data-name="shareMM" data-prev="shareFB" data-next="shareOK" data-event="lk">
+                                <div class="main-bg share-lk mm">
+                                    <div class="logo-frame logo_shareMM">m</div>
+                                </div>
+                               <!--  <div class="points_wrap">
+                                    <div class="points_txt p-100"><span class='p-num'>100</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                                <div class="infotext">
+                                    Расскажите друзьям
+                                    <br> о конкурсе в Мой Мир
+                                </div>
+                                <div class="btn btn-share-lk vk">Рассказать</div>
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="shareMM-done" data-widgetBg="done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>100</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- рассказать в ОДНОКЛАССНИКИ -->
+                            <div class="slider-frame widget-frame-group" data-name="shareOK" data-prev="shareMM" data-next="shareTW" data-heightfix="210" data-event="lk">
+                                <div class="main-bg share-lk ok">
+                                    <div class="logo-frame logo_shareOK">o</div>
+                                </div>
+                               <!--  <div class="points_wrap">
+                                    <div class="points_txt p-100"><span class='p-num'>100</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                                <div class="infotext">
+                                    Расскажите друзьям
+                                    <br> о конкурсе в Одноклассники
+                                </div>
+                                <div class="btn btn-share-lk vk">Рассказать</div>
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="shareOK-done" data-widgetBg="done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>100</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- рассказать в ТВИТТЕР -->
+                            <div class="slider-frame widget-frame-group" data-name="shareTW" data-prev="shareOK" data-next="joinVK" data-event="lk">
+                                <div class="main-bg share-lk tw">
+                                    <div class="logo-frame logo_shareTW">t</div>
+                                </div>
+                               <!--  <div class="points_wrap">
+                                    <div class="points_txt p-100"><span class='p-num'>100</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                                <div class="infotext">
+                                    Расскажите друзьям
+                                    <br> о конкурсе в Twitter
+                                </div>
+                                <div class="btn btn-share-lk vk">Рассказать</div>
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="shareTW-done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>100</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- вступить в группу - ВКотакте -->
+                            <div class="slider-frame widget-frame-group" data-name="joinVK" data-heightfix="210" data-prev="shareTW" data-next="joinFB">
+                                <div class="mobile-infotext-group" style="display:none;">
+                                    Подпишись на сообщество
+                                    <br> Sony в ВКонтакте
+                                </div>
+                                <div class="groupContainer">
+                                    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?116"></script>
+                                    <div id="vk_groups"></div>
+                                    <script type="text/javascript">
+                                        VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "170", color1: 'e6e7e8', color2: '5584f8', color3: 'ef4152'}, 37228841);
+                                    </script>
+                                </div>
+                                <div class="logo_joinVK"></div>
+                                <div class="inf-gr-dekst">
+                                    Подпишись на сообщество
+                                    <br> Sony в ВКонтакте
+                                </div>
+                                <!-- <div class="points_wrap">
+                                    <div class="points_txt p-200"><span class='p-num'>200</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="joinVK-done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>+200</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- вступить в группу - Фэйсбук -->
+                            <div class="slider-frame widget-frame-group" data-name="joinFB" data-prev="joinVK" data-next="joinTW">
+                                <div class="main-bg">
+                                    <div class="logo-frame logo_joinFB">
+                                        <span class="icons">f</span>
+                                        <div class="groupContainer">
+                                            <div class="fb-like" data-href="https://www.facebook.com/SonyRussia" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="infotext-group">
+                                    Подпишись на сообщество
+                                    <br> Sony в Facebook
+                                </div>
+                                <!-- <div class="points_wrap">
+                                    <div class="points_txt p-200"><span class='p-num'>200</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="joinFB-done" data-widgetBg="done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>+200</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- вступить в группу - ТВИТТЕР -->
+                            <div class="slider-frame widget-frame-group" data-name="joinTW" data-prev="joinFB" data-next="shareLink">
+                                <div class="main-bg">
+                                    <div class="logo-frame logo_joinTW">
+                                        <span class="icons">t</span>
+                                        <script>
+                                        window.twttr = (function(d, s, id) {
+                                            var js, fjs = d.getElementsByTagName(s)[0],
+                                                t = window.twttr || {};
+                                            if (d.getElementById(id)) return t;
+                                            js = d.createElement(s);
+                                            js.id = id;
+                                            js.src = "https://platform.twitter.com/widgets.js";
+                                            fjs.parentNode.insertBefore(js, fjs);
+
+                                            t._e = [];
+                                            t.ready = function(f) {
+                                                t._e.push(f);
+                                            };
+                                            return t;
+                                        }(document, "script", "twitter-wjs"));
+                                        </script>
+                                        <div class="groupContainer">
+                                            <a class="twitter-follow-button"
+                                              href="https://twitter.com/Sony_Rus" data-size="large" data-show-count="false" data-show-screen-name="false">
+                                            Follow @Sony_Rus</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="infotext-group">
+                                    Подпишись на сообщество
+                                    <br> Sony в Twitter
+                                </div>
+                                <!-- <div class="points_wrap">
+                                    <div class="points_txt p-200"><span class='p-num'>200</span><span class='p-txt'>баллов</span></div>
+                                </div> -->
+                            </div>
+                            <div class="slider-frame widget-frame-done" data-name="joinTW-done" data-widgetBg="done">
+                                <h3>Поздравляем!</h3>
+                                <p><b>+200</b><br><span> баллов</span></p>
+                            </div>
+
+                            <!-- Пригласи друга -->
+                            <div class="slider-frame widget-frame-final" data-name="shareLink"  data-prev="joinTW" data-next="0">
+                                <div class="main-bg btn-share-link link">
+                                    <div class="logo-frame logo_link"></div>
+                                    <div class="btn btn-copy" id="shareLinkCopyButton">Скопировать</div>
+                                </div>
+                                <div class="infotext-group">
+                                    Cкопируй ссылку
+                                    <br>и отправь её другу
+                                </div>
+                                <!-- <button id="shareLinkCopyButton" data-clipboard-text="clipboard-text" class="button">СКОПИРОВАТЬ</button> -->
+                                <input id="shareLinkInput" name="shareLinkInput" value="" readonly="readonly" onClick="this.setSelectionRange(0, this.value.length);" />
+                                <!-- <input id="shareLinkInputIeOld" name="shareLinkInput ieOld" value="" readonly="readonly"/> -->
+
+                            </div>
+
+                        </div><!-- END WIDGET Slider-1 -->
+                    </div><!-- END RELATIVE -->
+                </div> <!-- END widgetSlider-block-1  -->
+
+                <div class="box-link">
+                    <h3>Загрузи ссылку на свой отзыв о приобретенной
+                    модели беспроводных колонок Sony*</h3>
+                    <p>*В акции участвуют модели беспроводных колонок Sony SRS-X11, SRS-X33 и SRS-X55.</p>
+                    <form method="post" action="" class="form-serial clearfix">
+                        <input type="link" name="link" value="" placeholder="Скопируйте в данное окно ссылку на ваш отзыв" class="input input-link" style="">
+                        <button type="submit" class="button btn submitLink"><span>Отправить ссылку на отзыв</span></button>
+                    </form>
+
+                </div>
+
+            </div> <!-- cabinetWrap-L -->
+
+            <div class="cabinetWrap-R">
+                <div class="box-check">
+                    <img src="src/img/lk-check.png">
+                    <p>Подтвердить покупку</p>
+                    <div class="btn btn-check">Загрузить чек</div>
+                </div>
+                <div class="box-photo">
+                    <span>i</span>
+                    <p>#вечеринкабезпровода #sonywireless</p>
+                    <div class="btn btn-photo">Загрузить фото</div>
+                </div>
+                <div class="box-music">
+                    <a class="googlePlayLink" href="https://play.google.com/music" target="_blank"><img src="src/img/google-music.png" width="100%" height="100%"></a>
+                    <p>500 баллов за активацию</p>
+                    <span>Google Play&trade;</span> Музыка
+                    <div class="btn btn-tutorial">Видео-инструкция</div>
+                </div>
+            </div>
+
+            <div class="history">
+                <h2>История Активностей</h2>
+                <div class="rules-detail">
+                    <div class="rules-detail-info">
+                        <div class="label"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- centerWrapOverflowHidden -->
+    </div> <!-- END page-wrap -->
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+    <div id="prizeBlock" class="page-wrap">
+        <div class="centerWrap">
+
+            <div class="prize-step-1">
+                <div class="phone">
+                    <img src="src/img/prize-phone.png" width="100%" height="100%">
+                </div>
+                <div class="prizeTxt">
+                    <div class="gMusic">
+                        <a class="googlePlayLink" href="https://play.google.com/music" target="_blank"><img src="src/img/google-music.png" width="100%" height="100%"></a>
+                    </div>
+                    <h2>Призы</h2>
+                    Зарегистрируй серийный номер продукта с упаковки беспроводных колонок Sony и получи 6 месяцев бесплатной музыки на <a class="googlePlayLink" href="https://play.google.com/music" target="_blank">Google Play&trade; Музыка.</a>
+                    <br>
+                    <br>
+                    Активно участвуй в акции, набирай баллы и стань одним из 100 победителей, которые получат главный приз — 1 из 100 смартфонов <a class="sonyXperiaLink" href="https://store.sony.ru/sony_xperia/smartphones/smartphones/index.php?prodid=311687&acc_from_page=" target="_blank">Xperia&trade; Z5 Compact</a>**.<br>
+                    <div class="btn btn-registerSerial">Зарегистрировать серийный номер</div>
+                </div>
+            </div>
+
+            <div class="prize-step-2">
+                <div class="btn-close"></div>
+                <h2>Регистрация серийного номера</h2>
+                <p>Выберите модель портативной колонки Sony</p>
+                <div class="speaker-block speaker-block-1">
+                    <div class="checkbox-2" data-type="1">SRS-X11</div>
+                    <div class="speaker-1-img speaker-img">
+                        <img src="src/img/speaker-1.png" alt=""  style="width:70%;">
+                    </div>
+                </div>
+                <div class="speaker-block speaker-block-2">
+                    <div class="checkbox-2" data-type="2">SRS-X33</div>
+                    <div class="speaker-2-img speaker-img">
+                        <img src="src/img/speaker-2.png" alt=""  style="width:70%;">
+                    </div>
+                </div>
+                <div class="speaker-block speaker-block-3">
+                    <div class="checkbox-2" data-type="3">SRS-X55</div>
+                    <div class="speaker-3-img speaker-img">
+                        <img src="src/img/speaker-3.png" alt="" style="width:70%;">
+                    </div>
+                </div>
+
+                <form method="post" action="" class="form-register-serial clearfix">
+                    <input type="hidden" name="type" value="" class="required input input-type" style="">
+
+                    <div class="float-wrap">
+
+                        <div class="floatL">
+                            <input type="name" name="name-first" value="" placeholder="Ваше имя" class="required input input-name" style="">
+                            <input type="name" name="name-last" value="" placeholder="Ваша фамилия" class="required input input-surname" style="">
+                            <input type="text" name="bdate" id="birthDate" value="" placeholder="Ваша дата рождения ДД/ММ/ГГГГ" class="required input input-date" style="">
+                        </div>
+
+                        <div class="floatR">
+                            <div class="input-wrap input-wrap-1">
+                                <input id="img_file" type="file" name="check" value="" class="required input input-check">
+                                <img id="img_prev" width="150" src="" alt="Preview">
+                                <!-- <div class="check-updload">
+                                Загрузите фотографию чека -->
+                                <div class="qMark qMark-1">?</div>
+                                <div class="hint check-hint">
+                                    Вы можете загрузить фото чека или любого другого
+                                    официального документа, подтверждающего факт
+                                    покупки портативной колонки Sony модели SRS.
+                                    Документ должен содержать информацию о
+                                    наименовании товара, дате приобретения и продавце.
+                                </div>
+                                <div class="btn-uploadCheck">
+                                    <p>Загрузите фотографию чека</p>
+                                    <div class="preloader-2"><img src="src/img/preloader-2.gif"></div>
+                                <!-- </div> -->
+                                </div>
+
+                            </div>
+
+
+                            <div class="input-wrap input-wrap-2">
+                                <!-- <input type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" maxlength="7" name="serial" value="" placeholder="Введите последние 7 цифр серийного номера" class="input input-serial" style=""> -->
+                                <div class="input-serial-wrap">
+                                    <input type="serial" name="serial" value="" placeholder="Введите серийный номер" class="required input input-serial" style="" maxlength="8" >
+                                    <div class="qMark qMark-2">?</div>
+                                    <div class="hint serial-number-hint">
+                                        Серийный номер — это ряд символов, расположенных на упаковке приобретенного товара после «SXX". Например: SO1-00000100-U. Серийный номер в данном случае — 00000100.
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-register-serial">Зарегистрировать</button>
+                        </div> <!-- floatR -->
+                    </div> <!-- float-wrap -->
+                </form>
+            </div> <!-- prize-step-2 -->
+        </div> <!-- centerWrap -->
+    </div>
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+    <div id="galleryBlock" class="subblock-gallery subblock page-wrap">
+        <div class="centerWrap">
+            <h2>Галерея вечеринок</h2>
+            <div class="galleryTxt">
+                <p>Делись фотографиями с&nbsp;вечеринок без&nbsp;провода в&nbsp;социальных сетях</p>
+                <p>с&nbsp;<span>#вечеринкабезпровода #sonywireless</span> и&nbsp;получай за&nbsp;это баллы.
+                </p>
+            </div>
+            <div class="btn btn-socSelect">
+                Загрузить фотографию со&nbsp;своей вечеринки
+                <!-- <div class="mobile-socbtn-flash"></div> -->
+            </div>
+
+            <div class="filter-options">
+                <div data-filter="1" class="filter-1 filterPhoto myF">Мои фото</div>
+                <p>/</p>
+                <div data-filter="2" class="filter-2 filterPhoto allF active">Вcе Фото</div>
+            </div>
+
+            <div class="gallery">
+                <div class="galleryWrap">
+
+<!--                     <div class="photoGal">
+                        <div class="photoGalShading">
+                            <div class="photoOnMod"></div>
+                            <span class="admify-user-name">ОДИННАДЦАТИКЛАССНИЦА</span>
+                            <div class="btn-like">
+                                <div class="likeNum" data-likes="0">99</div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>   <!-- gallery -->
+        </div> <!-- centerWrap -->
+
+        <div class="centerWrap">
+            <div class="galleryPagesWrap">
+                <div class="prevPage"></div>
+                <div class="galleryPages">
+                    <div class="countPages">
+                        <!--<div class="pageNum no">1</div>-->
+                        <!--<div class="pageNum no">2</div>-->
+                        <!--<div class="pageNum no">3</div>-->
+                        <!--<div class="pageNum no">4</div>-->
+                        <!--<div class="pageNum no">5</div>-->
+                    </div>
+                </div>
+                <div class="nextPage"></div>
+            </div>    <!-- galleryPagesWrap -->
+        </div> <!-- centerWrap -->
+    </div><!-- galleryBlock -->
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+    <div id="rulesBlock" class="page-wrap">
+        <div class="centerWrap">
+            <h2>Правила акции</h2>
+            <p class="txt">Рассказывай об акции, приглашай друзей на вечеринку
+            без провода и&nbsp;получай за это баллы.</p>
+
+            <div class="rulesHeader mobile-only">
+            </div>
+
+            <div class="pointsButtons">
+
+                <div class="pointsWrapL">
+                    <div class="point-button points-serial item-serial">
+                        <span class="numeric">3000</span><br>
+                        <p class="text_balls">баллов за регистрацию серийного номера продукта с&nbsp;упаковки</p>
+                    </div>
+                    <div class="point-button points-feedback item-feedback">
+                        <span class="numeric">200</span><br>
+                        <p>баллов за отправку ссылки на&nbsp;твой отзыв</p>
+                    </div>
+                    <div class="point-button points-reg item-reg">
+                        <span class="numeric">100</span><br>
+                        <p>баллов за регистрацию в&nbsp;акции</p>
+                    </div>
+
+                    <div class="point-button points-like item-gallery">
+                        <span class="numeric">1</span><br>
+                        <p>балл за каждый лайк к твоему фото с&nbsp;#вечеринкабезпровода #sonywireless</p>
+                    </div>
+
+                    <div class="point-button points-soc item-soc">
+                        <span class="numeric">100</span><br>
+                        <p>баллов за пост об акции
+                        <br> в социальные сети</p>
+                    </div>
+
+                    <div class="point-button points-foto item-gallery">
+                        <span class="numeric">100</span><br>
+                        <p>баллов за загрузку фото
+                        <br> с&nbsp;#вечеринкабезпровода #sonywireless</p>
+                    </div>
+                </div>
+
+                <div class="pointsWrapR">
+
+                    <div class="point-button item-google">
+                        <span class="numeric">500</span><br>
+                        <p>баллов за активацию <br> Google Play&trade; Музыка</p>
+                    </div>
+
+                    <div class="point-button column2 points-ref item-invite">
+                        <span class="numeric">200</span><br>
+                        <p>баллов за регистрацию друга в&nbsp;акции</p>
+                    </div>
+
+                    <div class="point-button column2 item-group">
+                        <span class="numeric">200</span><br>
+                        <p>баллов за присоединение к&nbsp;сообществам Sony</p>
+                    </div>
+
+                    <div class="point-button points-click item-invite">
+                        <span class="numeric">20</span><br>
+                        <p>баллов за каждый переход друга по твоей ссылке</p>
+                    </div>
+
+                </div>
+
+            </div><!-- potintsButtons -->
+
+        </div> <!-- centerWrap -->
+
+        <div class="centerWrap">
+            <div class="allSpeakers">
+                <img src="src/img/rules-speakers.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+
+    <div class="footer-admify">
+        <div class="centerWrap">
+            <div class="footer-linx element animate_on_scroll" animation-delay="50">
+                <!-- <div class="footer-feedback menuitem-footer">Связь с Организатором</div> -->
+                <a href="src/rules/rules.pdf" target="_blank" class="link_rules">
+                    <div class="rulesPDF">Юридические правила</div>
+                </a>
+                <a href="src/rules/rules-google.pdf" target="_blank" class="link_rules_google">
+                    <div class="rulesPDF-google">Условия предложения Google Play&trade; Музыка</div>
+                </a>
+
+            </div>
+            <!-- <p>Общий срок проведения акции: с 15 мая 2015 года по 15 июля 2015 года</p> -->
+            <p>* &nbsp;В акции участвуют модели беспроводных колонок Sony SRS-X11, SRS-X33 и SRS-X55.
+            <br>** Зэд5Компакт.</p>
+        </div>
+    </div> <!-- footer -->
+
+    <div class="disclaimer">
+        <div class="centerWrap">
+            Предложение распространяется только на граждан Российской Федерации, которые приобрели на территории Российской Федерации портативные колонки Sony SRS-X11, SRS-X33, SRS-X55 в период с 1 февраля по 15 марта 2016 года включительно. Предложение действует только для покупателей, которые не подписаны на Google Play&trade; Музыку, не покупали подписку на сервис в течение последних 12 месяцев и не использовали пробные версии Google Play&trade; Музыки за последние 12 месяцев. Воспользоваться Предложением необходимо до 14 апреля 2016 года включительно. Для активации доступа потребуется действительная банковская карта, однако в течение бесплатного периода средства с нее списываться не будут. Когда пробная подписка закончится, с Вашего счета ежемесячно будут снимать сумму в размере 159 рублей. Пробную подписку можно безвозмездно отменить в любое время до ее окончания. Для активации предложения необходим аккаунт Google. Полные условия можно найти на сайте http://web.sony.ru/wirelesspromo/. Организатор: «Гугл Коммерс Лтд.» (Google Commerce Ltd) Сэр Джон Роджерсонс Кей 70, Дублин 2, Ирландия. Google Play&trade; и Google и логотип Google Play&trade; являются товарными знаками корпорации Google Inc.
+        </div>
+    </div>
+
+    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+
+
+    <!-- SONY FOOTER -->
+
+    <div class="area footer">
+        <div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="navigation" data-lv2="footnotes"></div>
+
+        <section id="footnotes" class="footnotes-wrapper container full-bleed-no-max m-full-bleed ">
+            <h2 class="p3"><div class="container"><div class="grid">Сноски<i class="fi fonticon-10-arrowhead-down"></i></div></div></h2>
+            <div class="list hidden-by-default">
+                <div class="container">
+                    <div class="grid">
+                        <ol>
+                            <li class="p3">
+                                <a name="fn-1"></a>
+                                <span class="num">1</span>
+                                <span class="note in_context">По результатам исследований, проведенных Sony, среди цифровых камер со сменной оптикой и матрицей формата APS-C по состоянию на 12&nbsp;февраля 2014&nbsp;г. Исследования проводились по внутренней методике с объективом E PZ 16-50&nbsp;мм F3.5-5.6 OSS.</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="visuallyhidden moduleTags" data-name="Footer-ru_RU-2013-09" data-mastername="Footer-en_GL-2013-09" data-lv1="navigation" data-lv2="footer"></div>
+        <section id="footer-wrapper" class="container full-bleed-no-max m-full-bleed footer-wrapper phone-at-567 ">
+            <div class="container full-bleed-at-567">
+                <div class="grid grid-footer no-grid-at-567">
+                    <div class="footer-store-locator span3 footer-mobile-section mobile-container-padded input-outer-wrapper">
+                        <h5><span>Магазины</span><i class="fi fonticon-10-arrowhead-down visible-phone"></i></h5>
+                        <a class="primary-link footer-change-location-link" data-new-win="No" title="Найти Магазин" target="_self" href="https://www.sony.ru/dealerlocator/search">Найти Магазин</a>
+                    </div>
+                    <div class="span3 footer-mobile-section mobile-container-padded" role="navigation">
+                        <h5><span>Сообщество</span><i class="fi fonticon-10-arrowhead-down visible-phone"></i></h5>
+                        <ul class="footer-links-list">
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="no" title="Блог: Новости от Sony" target="_self" href="https://community.sony.ru/t5/novosti-sony/bg-p/Blog_RU">Блог: Новости от Sony</a>
+                            </li>
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="yes" title="Фотогалерея" target="_blank" href="http://community.sony.ru/t5/%D0%A4%D0%BE%D1%82%D0%BE%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/con-p/ca_ru_1">Фотогалерея</a>
+                            </li>
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="yes" title="Форум И Чат" target="_blank" href="http://community.sony.ru/">Форум И Чат</a>
+                            </li>
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="yes" title="Галерея Обоев" target="_blank" href="http://community.sony.ru/t5/Wallpapers/con-p/wallpaper_world">Галерея Обоев</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span3 footer-mobile-section mobile-container-padded" role="navigation">
+                        <h5><span>Новости и информация</span><i class="fi fonticon-10-arrowhead-down visible-phone"></i></h5>
+                        <ul class="footer-links-list">
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="yes" title="Пресс-центр" target="_blank" href="http://presscentre.sony.ru/">Пресс-центр</a>
+                            </li>
+                            <li class="footer-link-li">
+                                <a class="primary-link " data-new-win="no" title="О компании Sony" target="_self" href="http://www.sony.ru/electronics/o-kompanii-sony">О компании Sony</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-ex clearfix">
+                        <div class="footer-language span3 mobile-container-padded">
+                            <div class="footer-language-selectors">
+                                <div id="country-selector" class="btn-hover-group country-selector">
+                                    <a id="currentCountry" class="btn dropdown-hover-toggle locale" title="Россия" href="http://www.sony.ru/locale-selector">
+                                        <i class="icon-flag-RU"></i>
+                                        <span class="dropdown-label">Россия</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-contact span9 mobile-container-padded" role="navigation">
+                            <p>
+                                <a class="primary-link " data-new-win="yes" title="Профессиональное Оборудование" target="_blank" href="http://www.sony.ru/pro/hub/home">Профессиональное Оборудование</a>
+                                <a class="primary-link " data-new-win="yes" title="Вакансии" target="_blank" href="http://www.sony.net/SonyInfo/Careers/discover.html">Вакансии</a>
+                                <a class="primary-link " data-new-win="yes" title="Связь с нами" target="_blank" href="http://www.sony.ru/support/ru/contact">Связь с нами</a>
+                                <a class="primary-link " data-new-win="no" title="Информация о компании" target="_self" href="http://campaign.odw.sony-europe.com/dynamic/legal/companyinfo/companyInformation.jsp?country=ru&amp;language=ru">Информация о компании</a>
+                            </p>
+                            <div class="footer-social-links" data-locale-code="ru_RU">
+                                <div class="social-overlay" id="social-overlay" style="display: none;">
+
+                                    <!-- <div id="fb-root"></div> -->
+
+                                    <button class="box-close box-close-small">
+                                        <i class="fi fonticon-10-x"></i>
+                                    </button>
+                                    <div class="social-title" id="vk">
+                                        <ul>
+                                            <li>
+                                                <h3 class="popover-title">Читайте нас Вконтакте</h3></li>
+                                            <li>
+                                                <a class="btn vkbtn" target="_blank" href="http://vk.com/sony_rus">Мы Вконтакте</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-title" id="twitter">
+                                        <ul>
+                                            <li>
+                                                <h3 class="popover-title">Читайте нас в Твиттере</h3></li>
+                                            <li>
+                                                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=%D0%A3%D0%B7%D0%BD%D0%B0%D0%B9%D1%82%D0%B5%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%D1%85%20%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%D1%85%20%D0%BE%D1%82%20www.sony.ru&amp;via=&amp;url=www.sony.ru"></a>
+                                            </li>
+                                            <li>
+                                                <a class="social-link" href="https://www.twitter.com/Sony_Rus" target="_blank">Посетите нашу страницу в Твиттере</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-title" id="youtube">
+                                        <ul>
+                                            <li>
+                                                <h3 class="popover-title">Подпишитесь на наш канал YouTube</h3></li>
+                                            <li>
+                                                <div class="g-ytsubscribe" data-count="default" data-theme="dark" data-layout="default" data-channel="sonyrussiacorp"></div>
+                                            </li>
+                                            <li>
+                                                <a class="social-link" href="http://www.youtube.com/user/sonyrussiacorp" target="_blank">Посетите наш канал YouTube</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-title" id="instagram">
+                                        <ul>
+                                            <li>
+                                                <h3 class="popover-title">Подпишитесь на нас в Instagram</h3></li>
+                                            <li>
+                                                <a class="btn insta" target="_blank" href="http://instagram.com/SonyRussia">Посетите нашу страницу Instagram</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-title" id="gplus">
+                                        <ul>
+                                            <li>
+                                                <h3 class="popover-title" dir="auto">Читайте нас в Google+</h3></li>
+                                            <li>
+                                                <div class="g-plusone" data-rel="publisher" data-href="https://plus.google.com/u/0/114714952169412408478/" data-size="medium"></div>
+                                                <div class="g-follow" data-height="20" data-rel="publisher" data-href="https://plus.google.com/u/0/114714952169412408478/" data-annotation="bubble"></div>
+                                            </li>
+                                            <li>
+                                                <a class="social-link" href="https://plus.google.com/u/0/114714952169412408478/" target="_blank">Посетите нашу страницу Google+</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                                <a data-url="#vk" data-target="#vk" title="VK" data-client="vk" class="footer-social footer-social-vk" href="http://www.sony.ru/#vk">
+                                    <i class="old-ie-cleartype-fix-gray05 fonticon-15-vk"></i>
+                                    <span class="visuallyhidden">VK</span>
+                                </a>
+                                <a data-url="#twitter" data-target="#twitter" title="Twitter" data-client="twitter" class="footer-social footer-social-twitter" href="http://www.sony.ru/#twitter">
+                                    <i class="old-ie-cleartype-fix-gray05 fonticon-15-twitter"></i>
+                                    <span class="visuallyhidden">Twitter</span>
+                                </a>
+                                <a data-url="#youtube" data-target="#youtube" title="Youtube" data-client="youtube" class="footer-social footer-social-youtube" href="http://www.sony.ru/#youtube">
+                                    <i class="old-ie-cleartype-fix-gray05 fonticon-15-youtube"></i>
+                                    <span class="visuallyhidden">Youtube</span>
+                                </a>
+                                <a data-url="#instagram" data-target="#instagram" title="Instagram" data-client="instagram" class="footer-social footer-social-instagram" href="http://www.sony.ru/#instagram">
+                                    <i class="old-ie-cleartype-fix-gray05 fonticon-15-instagram"></i>
+                                    <span class="visuallyhidden">Instagram</span>
+                                </a>
+                                <a data-url="#gplus" data-target="#gplus" title="Google+" data-client="gplus" class="footer-social footer-social-gplus" href="http://www.sony.ru/#gplus">
+                                    <i class="old-ie-cleartype-fix-gray05 fonticon-15-gplus"></i>
+                                    <span class="visuallyhidden">Google+</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="container full-bleed-no-max m-full-bleed footer-signature-w mobile-container-padded">
+                <div class="container">
+                    <div class="grid grid-footer clearfix">
+                        <div class="footer-signature">
+                            <span class="footer-copyright" dir="auto">© 2015 Sony CIS</span>
+                            <p class="footer-legal-links">
+                                <a class="primary-link " data-new-win="yes" title="Правила использования сайта" target="_blank" href="http://campaign.odw.sony-europe.com/dynamic/terms-conditions/index.jsp?country=ru&amp;language=ru">Правила использования сайта</a>
+                                <a class="primary-link " data-new-win="yes" title="Политика конфиденциальности" target="_blank" href="http://www.sony.ru/eu/pages/privacy/ru_RU/privacy_overview.html">Политика конфиденциальности</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+
+    <!-- End of SONY FOOTER -->
+
+
+    <script src="dist/bundle.js"></script>
+
+    <!-- JS -->
+    <script src="http://heart.admify.ru/jsapi/2.1/bundle.min.js"></script>
+
+    <!-- SONY.RU styles -->
+    <!-- Using for header and footer -->
+    <link href="http://global.sony.eu/static-assets/css/ltr/common-a446460c97c93d1014ed659cb31236ea.css" rel="stylesheet" type="text/css">
+    <link href="http://global.sony.eu/static-assets/css/ltr/component-ed3ba9d7fae0fe528914a8111a94364c.css" rel="stylesheet" type="text/css">
+    <link href="http://global.sony.eu/static-assets/css/ltr/app_common-9e4a5a8de20f0655773ed8978e3d92bb.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://global.sony.eu/static-assets/css/ltr/home-1dfa0afedc146317924ae5f35a14524a.css" media="all" rel="stylesheet" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="http://global.sony.eu/static-assets/css/ltr/extra.css"> -->
+
+    <link href='http://heart.admify.ru/jsapi/2.1/style.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="dist/style.css">
+    <script>
+        $(function() {
+            // enable scroll in popup
+          //  $(window).unbind('touchmove');
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.0/jquery.mCustomScrollbar.min.css">
+
+</body>
+</html>

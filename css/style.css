@@ -1,0 +1,8 @@
+/*.form-inline {
+	border:1px solid black;
+	padding: 5px;
+}*/
+.form-inline {
+	padding-left:0;
+	padding-right:0;  
+}
